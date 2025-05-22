@@ -206,6 +206,14 @@ export default {
     color: var(--color-primary);
     margin-right: 1rem;
     width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.info-item p {
+    margin: 0;
+    margin-bottom: 0;
+    line-height: 1.4;
 }
 
 .contact-form {
